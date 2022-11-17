@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "http://Senja20.github.io/react-pages-demo",
+  "homepage": "https://yavorski.live",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
