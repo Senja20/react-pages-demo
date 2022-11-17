@@ -39,7 +39,7 @@
     ]
   },
   "devDependencies": {
-    "ng-pages": "^2.1.1",
+    "gh-pages": "^2.1.1",
     "react-scripts": "^4.0.3"
   }
 }
