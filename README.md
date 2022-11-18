@@ -43,7 +43,7 @@ In order to validate the newly created react web application is created and can 
 
 The application will start a development server, hosted on localhost, with default port number of 3000. Hence by opening a web broser and using the link [localhost:3000](http://localhost:3000/), a default react web page can be viewed now as shown below.
 
-<img src="/read_me_images/Pasted image 20221117132436.png" alt="Alt text" title="Optional title">
+<img src="/read_me_images/Pasted image 20221117132436.png" alt="Alt text" title="Init React Application">
 
 Use the `Ctrl + C` command to complice and end the process of development server. 
 
@@ -56,7 +56,7 @@ A Github repository is required in order to utilize the Github pages service. A 
 
 A new repository can be created by first pressing the `new` button in the left upper corner of the Github main page. Then will out the displayed form. 
 
-![[Pasted image 20221117142442.png |400]]
+<img src="/read_me_images/Pasted image 20221117142442.png " alt="Alt text" title="Add remove repository">
 
 If you have access to premium features, the repository can be private and if not, make it public in order to get access to GitHub pages service. Add a description and then nothing else should be added. Press on `Create repository`. 
 
@@ -106,7 +106,7 @@ Two more commands have to be added to the `package.json` file. Those commands ha
 
 ```json
 	"predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    	"deploy": "gh-pages -d build"
 ```
 
 Then the new commands can be added and used further.  In order to deploey the project in the production build and deploy the web page to the github pages by using the following command. 
@@ -117,7 +117,8 @@ Then the new commands can be added and used further.  In order to deploey the pr
 
 In the case of success, the following terminal output will be expected. 
 
-![[Pasted image 20221117140014.png | 500 ]]
+
+<img src="/read_me_images/Pasted image 20221117140014.png" alt="Alt text" title="React application configurations for deployment">
 
 The necessary files will build and and pushed to the branch specifically created by the library. From where they can be deployed to Github pages. The command is used a new Environment should be added in GitHub repository main page, that should look like follows. 
 
