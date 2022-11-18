@@ -144,20 +144,21 @@ The DNS record can be configured by first pressing `Quick Links` and then select
 
 <img src="/read_me_images/Pasted image 20221117152144.png" alt="Alt text" title="Configure DNS records">
 
-In the displayed manu, the DNS record has to be configured as shown in the following Figure. The IP address in the `ANSWER` column are privided by the [Github documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
+In the displayed menu, the DNS record has to be configured as shown in the following Figure. The IP address in the `ANSWER` column are privided by the [Github documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 
 
-<img src="/read_me_images/Pasted image 20221117152144.png" alt="Alt text" title="Pasted image 20221117152656.png">
+<img src="/read_me_images/Pasted image 20221117152656.png" alt="Alt text" title="Configure DNS records">
 
 ### Adding custom domain to GitHub pages
 
 A domain name should be added in the custom domain field that can be found under `Settings` tab, left side of the menu will contain a `Pages` tab. Select in, scroll down to the custom domain section and add the above registered and configured domain. Press `Save` and Github will make DNS check before the domain can be used. 
 
-![[Pasted image 20221117153021.png ]]
+
+<img src="/read_me_images/Pasted image 20221117153021.png" alt=" Adding custom domain to GitHub pages" title="Pasted image 20221117152656.png">
 
 If Domain check is passed, the user may use the domain name. 
 
-![[Pasted image 20221118083040.png]]
+<img src="/read_me_images/Pasted image 20221118083040.png" alt=" Adding custom domain to GitHub pages" title="Adding custom domain to GitHub pages">
 
 There are also changes in code that have to be added before the system can be deployed.  The change is in the root of `package.json` file. The property is called `homepage`, and it has to be sat to the custom domain name. 
 
@@ -173,4 +174,5 @@ The last the deployment has to updated by using the following commands.
 
 Hence the deployment with custom domain process is complice. 
 
-![[Pasted image 20221118083140.png]]
+
+<img src="/read_me_images/Pasted image 20221118083140.png" alt=" Adding custom domain to GitHub pages" title="Adding custom domain to GitHub pages">
