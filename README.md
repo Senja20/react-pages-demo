@@ -43,7 +43,7 @@ In order to validate the newly created react web application is created and can 
 
 The application will start a development server, hosted on localhost, with default port number of 3000. Hence by opening a web broser and using the link [localhost:3000](http://localhost:3000/), a default react web page can be viewed now as shown below.
 
-![Alt text](/read_me_images/Pasted image 20221117132436.png)
+<img src="/read_me_images/Pasted image 20221117132436.png" alt="Alt text" title="Optional title">
 
 Use the `Ctrl + C` command to complice and end the process of development server. 
 
