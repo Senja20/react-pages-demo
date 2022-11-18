@@ -122,11 +122,12 @@ In the case of success, the following terminal output will be expected.
 
 The necessary files will build and and pushed to the branch specifically created by the library. From where they can be deployed to Github pages. The command is used a new Environment should be added in GitHub repository main page, that should look like follows. 
 
-![[Pasted image 20221117141505.png]]
+
+<img src="/read_me_images/Pasted image 20221117141505.png" alt="Alt text" title="React application configurations for deployment">
 
 The live web page can be view by first selecting the `Settings` tab in the repository page. Then on the left select `Pages`. On the top of displayed page, a window with url, can be viewed that will be similar to the following image. 
 
-![[Pasted image 20221117151307.png]]
+<img src="/read_me_images/Pasted image 20221117151307.png" alt="Alt text" title="React application configurations for deployment">
 
 By using the url in the image, the deployed web page can be viewed. The web page contains a pre make domain name defined by Github. The url can be changed by using adding custom domain. 
 
@@ -141,11 +142,12 @@ In order to add a custom domain name, first a DNS records have to be configured 
 The DNS record can be configured by first pressing `Quick Links` and then select `manage DNS records`.
 
 
-![[Pasted image 20221117152144.png]]
+<img src="/read_me_images/Pasted image 20221117152144.png" alt="Alt text" title="Configure DNS records">
 
 In the displayed manu, the DNS record has to be configured as shown in the following Figure. The IP address in the `ANSWER` column are privided by the [Github documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 
-![[Pasted image 20221117152656.png]]
+
+<img src="/read_me_images/Pasted image 20221117152144.png" alt="Alt text" title="Pasted image 20221117152656.png">
 
 ### Adding custom domain to GitHub pages
 
