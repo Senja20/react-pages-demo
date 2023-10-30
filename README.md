@@ -1,4 +1,4 @@
-# Deployment React in Github Pages
+# Deployment React in Github Pages with domain from Names.com
 
 In order to learn and experince deployment and work flow process using Github, I have deployde a react base template using Github pages and added custom domain. The domain name was purchesed from domain name provider Names.com and then added to Github pages settings. 
 
